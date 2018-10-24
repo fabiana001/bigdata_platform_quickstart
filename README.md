@@ -1,7 +1,8 @@
 # Bigdata Platform QuickStart
 This guide describes how to download and use QuickStart dockers, which provide everything you need to try CDH, Cloudera Manager, Impala, and Cloudera Search and PySpark 2.4
 
-## [Cloudera](https://www.cloudera.com/documentation/enterprise/5-13-x/topics/quickstart_docker_container.html)
+## [Cloudera Platform](https://www.cloudera.com/documentation/enterprise/5-13-x/topics/quickstart_docker_container.html)
+This section describes how to deploy a single-host Cloudera open-source distribution, including CDH and Cloudera Manager. You can use this environment to learn Hadoop, try new ideas, and test and demonstrate your application.
 
 **Requirements**
 - At least 8 GB of RAM and 2 virtual CPU. To increase the default configuration see [here](https://docs.docker.com/docker-for-mac/#advanced)
@@ -60,6 +61,14 @@ and Hive:
 
 
 ## [PySpark](https://hub.docker.com/r/jupyter/pyspark-notebook/)
+This section describes how to deploy a single-host Hadoop 2.7 distribution, including Spark 2.2.0. You can use this environment to learn PySpark on small, local data through Jupyter Notebook.
+
+The following command starts a container with the Notebook server listening for HTTP connections on port 8888 with a randomly generated authentication token configured.
+
 ```bash
 docker run -it --rm -p 8888:8888 jupyter/pyspark-notebook
 ```
+
+Take note of the authentication token included in the notebook startup log messages. Include it in the URL you visit to access the Notebook server or enter it in the Notebook login form.
+
+![alt text](imgs/spark_example.png)
