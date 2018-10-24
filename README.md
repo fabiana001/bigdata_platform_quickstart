@@ -57,7 +57,7 @@ Now you can find the dataset's tables as parquet files on HDFS:
 
 and Hive:
 
-![alt text](imgs/hive_example.png)
+![alt text](https://github.com/fabiana001/bigdata_platform_quickstart/blob/master/imgs/example_hive.png)
 
 
 ## [PySpark](https://hub.docker.com/r/jupyter/pyspark-notebook/)
@@ -71,4 +71,4 @@ docker run -it --rm -p 8888:8888 jupyter/pyspark-notebook
 
 Take note of the authentication token included in the notebook startup log messages (e.g. http://localhost:8888/?token=e0967346858196004e70c70d2ee05e56743caab6e2a6eb5e). Include it in the URL you visit to access the Notebook server or enter it in the Notebook login form.
 
-![alt text](imgs/spark_example.png)
+![alt text](https://github.com/fabiana001/bigdata_platform_quickstart/blob/master/imgs/example_jupyter.png)
