@@ -33,13 +33,13 @@ Required flags and options
 
 Start Cloudera Manager service:
 ```bash
-$ sudo /home/cloudera/cloudera-manager --express --force
+[root@quickstart /]$ sudo /home/cloudera/cloudera-manager --express --force
 ```
 
 **Note**
 The container contains a relational dataset *retail_dba* in as mysql db. To export it on Hive run:
  ```bash
-cloudera@quickstart ~]$ sqoop import-all-tables \
+[cloudera@quickstart ~]$ sqoop import-all-tables \
     -m 1 \
     --connect jdbc:mysql://quickstart:3306/retail_db \
     --username=retail_dba \
