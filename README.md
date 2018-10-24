@@ -1,5 +1,5 @@
 # Bigdata Platform QuickStart
-This guide describes how to download and use QuickStart dockers, which provide everything you need to try CDH, Cloudera Manager, Impala, and Cloudera Search and PySpark 2.4
+This guide describes how to download and use QuickStart dockers, which provide everything you need to try CDH, Cloudera Manager, Impala, Cloudera Search and PySpark 2.4 with Jupyter Notebook
 
 ## [Cloudera Platform](https://www.cloudera.com/documentation/enterprise/5-13-x/topics/quickstart_docker_container.html)
 This section describes how to deploy a single-host Cloudera open-source distribution, including CDH and Cloudera Manager. You can use this environment to learn Hadoop, try new ideas, and test and demonstrate your application.
